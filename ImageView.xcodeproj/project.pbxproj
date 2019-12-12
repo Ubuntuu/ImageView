@@ -13,6 +13,18 @@
 		7D2315DD23A1399700701512 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D2315DB23A1399700701512 /* Main.storyboard */; };
 		7D2315DF23A1399A00701512 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D2315DE23A1399A00701512 /* Assets.xcassets */; };
 		7D2315E223A1399A00701512 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D2315E023A1399A00701512 /* LaunchScreen.storyboard */; };
+		7D2315FF23A14A5700701512 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2315FE23A14A5700701512 /* DetailViewController.swift */; };
+		7D23160C23A206C900701512 /* za_buffalos.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7D23160123A206C900701512 /* za_buffalos.jpeg */; };
+		7D23160D23A206C900701512 /* za_penguins.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7D23160223A206C900701512 /* za_penguins.jpeg */; };
+		7D23160E23A206C900701512 /* za_giraf.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7D23160323A206C900701512 /* za_giraf.jpeg */; };
+		7D23160F23A206C900701512 /* za_african_evening.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7D23160423A206C900701512 /* za_african_evening.jpeg */; };
+		7D23161023A206C900701512 /* za_austridge.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7D23160523A206C900701512 /* za_austridge.jpeg */; };
+		7D23161123A206C900701512 /* za_african_sun.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7D23160623A206C900701512 /* za_african_sun.jpeg */; };
+		7D23161223A206C900701512 /* za_lions.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7D23160723A206C900701512 /* za_lions.jpeg */; };
+		7D23161323A206C900701512 /* za_african_view.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7D23160823A206C900701512 /* za_african_view.jpeg */; };
+		7D23161423A206C900701512 /* za_elephants.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7D23160923A206C900701512 /* za_elephants.jpeg */; };
+		7D23161523A206C900701512 /* za_black_rhinos.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7D23160A23A206C900701512 /* za_black_rhinos.jpeg */; };
+		7D23161623A206C900701512 /* za_spider.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7D23160B23A206C900701512 /* za_spider.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +36,18 @@
 		7D2315DE23A1399A00701512 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D2315E123A1399A00701512 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7D2315E323A1399A00701512 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D2315FE23A14A5700701512 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		7D23160123A206C900701512 /* za_buffalos.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = za_buffalos.jpeg; sourceTree = "<group>"; };
+		7D23160223A206C900701512 /* za_penguins.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = za_penguins.jpeg; sourceTree = "<group>"; };
+		7D23160323A206C900701512 /* za_giraf.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = za_giraf.jpeg; sourceTree = "<group>"; };
+		7D23160423A206C900701512 /* za_african_evening.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = za_african_evening.jpeg; sourceTree = "<group>"; };
+		7D23160523A206C900701512 /* za_austridge.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = za_austridge.jpeg; sourceTree = "<group>"; };
+		7D23160623A206C900701512 /* za_african_sun.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = za_african_sun.jpeg; sourceTree = "<group>"; };
+		7D23160723A206C900701512 /* za_lions.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = za_lions.jpeg; sourceTree = "<group>"; };
+		7D23160823A206C900701512 /* za_african_view.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = za_african_view.jpeg; sourceTree = "<group>"; };
+		7D23160923A206C900701512 /* za_elephants.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = za_elephants.jpeg; sourceTree = "<group>"; };
+		7D23160A23A206C900701512 /* za_black_rhinos.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = za_black_rhinos.jpeg; sourceTree = "<group>"; };
+		7D23160B23A206C900701512 /* za_spider.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = za_spider.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,12 +83,32 @@
 				7D2315D523A1399700701512 /* AppDelegate.swift */,
 				7D2315D723A1399700701512 /* SceneDelegate.swift */,
 				7D2315D923A1399700701512 /* ViewController.swift */,
+				7D2315FE23A14A5700701512 /* DetailViewController.swift */,
 				7D2315DB23A1399700701512 /* Main.storyboard */,
 				7D2315DE23A1399A00701512 /* Assets.xcassets */,
 				7D2315E023A1399A00701512 /* LaunchScreen.storyboard */,
 				7D2315E323A1399A00701512 /* Info.plist */,
+				7D23160023A206C900701512 /* Content */,
 			);
 			path = ImageView;
+			sourceTree = "<group>";
+		};
+		7D23160023A206C900701512 /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				7D23160123A206C900701512 /* za_buffalos.jpeg */,
+				7D23160223A206C900701512 /* za_penguins.jpeg */,
+				7D23160323A206C900701512 /* za_giraf.jpeg */,
+				7D23160423A206C900701512 /* za_african_evening.jpeg */,
+				7D23160523A206C900701512 /* za_austridge.jpeg */,
+				7D23160623A206C900701512 /* za_african_sun.jpeg */,
+				7D23160723A206C900701512 /* za_lions.jpeg */,
+				7D23160823A206C900701512 /* za_african_view.jpeg */,
+				7D23160923A206C900701512 /* za_elephants.jpeg */,
+				7D23160A23A206C900701512 /* za_black_rhinos.jpeg */,
+				7D23160B23A206C900701512 /* za_spider.jpeg */,
+			);
+			path = Content;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +169,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D23161523A206C900701512 /* za_black_rhinos.jpeg in Resources */,
+				7D23161223A206C900701512 /* za_lions.jpeg in Resources */,
+				7D23160C23A206C900701512 /* za_buffalos.jpeg in Resources */,
 				7D2315E223A1399A00701512 /* LaunchScreen.storyboard in Resources */,
+				7D23160D23A206C900701512 /* za_penguins.jpeg in Resources */,
 				7D2315DF23A1399A00701512 /* Assets.xcassets in Resources */,
+				7D23160E23A206C900701512 /* za_giraf.jpeg in Resources */,
+				7D23161623A206C900701512 /* za_spider.jpeg in Resources */,
+				7D23161123A206C900701512 /* za_african_sun.jpeg in Resources */,
+				7D23161423A206C900701512 /* za_elephants.jpeg in Resources */,
 				7D2315DD23A1399700701512 /* Main.storyboard in Resources */,
+				7D23160F23A206C900701512 /* za_african_evening.jpeg in Resources */,
+				7D23161323A206C900701512 /* za_african_view.jpeg in Resources */,
+				7D23161023A206C900701512 /* za_austridge.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +196,7 @@
 				7D2315DA23A1399700701512 /* ViewController.swift in Sources */,
 				7D2315D623A1399700701512 /* AppDelegate.swift in Sources */,
 				7D2315D823A1399700701512 /* SceneDelegate.swift in Sources */,
+				7D2315FF23A14A5700701512 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
